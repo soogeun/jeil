@@ -2,65 +2,130 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>김포제일고 빵,음료 자판기</title>
+    <title>김포제일고등학교 빵,음료 자판기</title>
+
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
+
     <style>
-       *{
-        font-family: 'Black Han Sans', sans-serif;
-       }
-       body{
+
+        * {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        body {
             background-color: antiquewhite;
         }
-        h1{
-            font-size: 50px;
-        }
-        h2{
-            font-size: 10px;
+
+        .mytitle {
+            color: rgb(0, 0, 0);
             text-align: center;
+            
+            margin-top: 100px;
+            margin-bottom: 50px;
         }
-        ol{
-            font-size: 20px;
+
+        .mytitle > h1 {
+            font-size: 56px;
+            margin-bottom: 0px;
+        }
+
+        .rtans > a {
+            width: 150px;
+            height: 150px;
+
+            border-radius: 150px;
+            border: 3px solid rgb(255, 253, 253);
+
+            box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+
+            background-color: antiquewhite;
+            display: block;
+
+            margin: 10px;
+
+            background-size: cover;
+            background-position: center;
+
+            color: grey;
+            text-decoration: none;
+            text-align: center;
+            font-size: 24px;
+        }
+
+     
+        .rtan1 { background-image: url('toreta.png'); }
+        .rtan2 { background-image: url('powerade.png'); }
+        .rtan3 { background-image: url('water.png'); }
+        .rtan4 { background-image: url('pocari.png'); }
+        .rtan5 { background-image: url('corn.png'); }
+        .rtan6 { background-image: url(''); }
+        .rtan7 { background-image: url(''); }
+        .rtan8 { background-image: url(''); }
+        .rtan9 { background-image: url(''); }
+        .rtan10 { background-image: url(''); }
+        .rtan11 { background-image: url(''); }
+        .rtan12 { background-image: url(''); }
+
+        .rtans {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            flex-wrap: wrap;
+
+            width: 1200px;
+            margin:auto;
+        }
+
+        @media screen and (max-width: 780px)  {
+
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+
+            .rtans {
+                width: 100%;
+            }
+
+            .mytitle {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
         }
     </style>
 </head>
-<body> 
-    <h1>김포제일고 빵,음료 물품 목록</h1> 
-    <h2>김규민,김소정,강보영,조수근</h2>
-    <ol>
-        <li> 음료자판기
-            <ul>
-                <li><a href="toreta.html">토레타</a> </li>
-                <li><a href="water.html">물</a>  </li>
-                <li><a href="pocari.html">포카리스웨트</a>  </li>
-                <li> <a href="powerade.html">파워에이드</a></li>
-                <li> <a href="corn.html">옥수수 수염차</a></li>
-                
-            </ul>
-        </li>
-        <li> 빵 자판기 </li>
-        <ul>
-            <li> <a href="">소세지빵</a> </li>
-            <li> <a href="">마늘바게트</a> </li>
-            <li> <a href="">매콤한 마늘바게트</a></li>
-            <li> <a href="">크림빵</a> </li>
-            
-        </ul>
-
-    </ol>
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/601fe28bc31c9117cb76a80b/1etu8pso8';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-
+<body>
+    <div class="mytitle">
+        <h1>김포제일고등학교 빵,음료 자판기</h1>
+        <h2>by 보영,규민,소정,수근</h2>
+    </div>
+    <div class="rtans">
+        <a class="rtan1" href="toreta.html"></a>
+        <a class="rtan2" href="powerade.html"></a>
+        <a class="rtan3" href="water.html"></a>
+        <a class="rtan4" href="pocari.html"></a>
+        <a class="rtan5" href="corn.html"></a>
+        <a class="rtan6" href=""></a>
+        <a class="rtan7" href=""></a>
+        <a class="rtan8" href=""></a>
+        <a class="rtan9" href=""></a>
+        <a class="rtan10" href=""></a>
+        <a class="rtan11" href=""></a>
+        <a class="rtan12" href=""></a>
+    </div>
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/601fe28bc31c9117cb76a80b/1etu8pso8';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
 </body>
 </html>
